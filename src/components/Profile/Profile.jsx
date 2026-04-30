@@ -4,7 +4,7 @@ export default function Profile ({name, tag, location, image, stats}) {
           <div>
             <img
               src={image}
-              alt={name} avatar
+              alt="User avatar"
             />
             <p>{name}</p>
             <p>@{tag}</p>
